@@ -1,0 +1,17 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		inteiro resultado 
+		
+		escreva ("insira o numero")
+		leia (n1)
+		resultado = n1 % 5
+		se (resultado != 0 )
+		{
+		    escreva ("não divisivel por 5")
+		}
+		senao {
+		    escreva("divisivel por 5")
+		}
+	}
+}
